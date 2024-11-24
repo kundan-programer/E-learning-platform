@@ -1,0 +1,147 @@
+* {
+  background-color: #dbdbdb;
+}
+
+.About {
+  /* border: 2px solid blueviolet; */
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  /* background-color: rgb(239, 239, 239); */
+  box-shadow: 3px 2px rgb(198, 197, 197);
+  border-radius: 5px;
+}
+
+
+
+.title h3 {
+  font-size: 40px;
+}
+
+.title {
+  text-align: center;
+  margin-top: 40px;
+  /* background-color: rgb(239, 239, 239); */
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 5px;
+  font-size: 30px;
+  box-shadow: 3px 2px rgb(198, 197, 197);
+  font-style: italic;
+  color: rgb(0, 0, 255);
+}
+
+.about h2 {
+  text-align: center;
+  font-style: italic;
+  font-size: 30px;
+  /* background-color: beige; */
+  border-radius: 5px;
+  margin-top: 80px;
+}
+
+
+.heading {
+  text-align: center;
+  font-style: italic;
+  font-size: 23px;
+  font-weight: bold;
+  background: none;
+  margin-left: 18%;
+  padding-left: 50px;
+  /* margin-top: 300px; */
+  /* border: 2px solid seagreen; */
+  /* background-color: rgb(2, 137, 255); */
+}
+
+.grid1 p {
+  /* background-color: aqua; */
+  width: 32%;
+  box-sizing: border-box;
+  float: left;
+  padding: 10px;
+  margin: 5px;
+
+}
+
+#grid1 p,
+#grid2 p,
+#grid3 p {
+  border: 0.2px solid rgb(230, 227, 227);
+  /* border: none; */
+  height: 300px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  /* background-image: url(logo.jpg); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 3px 2px rgb(152, 151, 151);
+}
+
+.grid1 img {
+  height: 100px;
+  width: 100px;
+  /* border: 2px solid black; */
+  margin-left: 39%;
+  margin-right: 39%;
+  border-radius: 7px;
+  box-shadow: 3px 3px rgb(189, 189, 189);
+}
+
+
+.insidespan {
+  font-style: italic;
+  background-color: transparent;
+  /* text-align: center; */
+  /* padding-left: 20px; */
+  /* padding-top: 200px; */
+  /* margin-top: 100px; */
+  /* margin-left: 20px; */
+  font-size: 20px;
+  /* border: 2px solid black; */
+}
+.insidespan span{
+  margin-left: 14%;
+  background-color: white;
+  /* text-align: center; */
+}
+#grid4 {
+  width: 99%;
+  /* border: 2px solid blue; */
+  margin-top: 350px;
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(218, 218, 218);
+  border-radius: 5px;
+}
+
+.follow {
+  /* border: 2px solid black; */
+  font-style: italic;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(236, 236, 236);
+  border-radius: 5px;
+  box-shadow: 2px 3px rgb(170, 168, 168);
+}
+
+
+#grid4 a {
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 4px;
+  padding: 6px;
+  width: 20px;
+  height: 100px;
+  background-color: #f1dfbf;
+}
+
+#grid4 a:hover {
+  font-size: 20px;
+  color: rgb(255, 2, 2);
+}

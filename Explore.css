@@ -1,0 +1,604 @@
+.imglogo img {
+  width: 65px;
+  height: 65px;
+}
+
+.imglogo hr {
+  width: 100%;
+}
+
+.imglogo .imglogo1 {
+  width: 40px;
+  height: 40px;
+  margin-left: 85%;
+  margin-bottom: 9px;
+}
+.imglogo .imglogo1:hover {
+  cursor: pointer;
+}
+
+.title {
+  border: 2px solid black;
+  height: 50px;
+  border-radius: 2px;
+  width: 61.5%;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+.title1 input {
+  border: 1px solid rgb(211, 211, 211);
+  margin-top: 10px;
+  width: 70%;
+  margin-left: 2%;
+  padding: 5px;
+  height: 21px;
+  border-radius: 2px;
+  box-shadow: 1px 1px silver;
+}
+
+.title1 #pricing {
+  border: 1px solid rgb(211, 211, 211);
+  margin-top: 10px;
+  width: 25%;
+  /* margin-left: 2%; */
+  padding: 7px;
+  /* height: 21px; */
+  border-radius: 2px;
+  box-shadow: 1px 1px silver;
+}
+
+.explore1 {
+  border: 2px solid rgb(231, 231, 231);
+  /* border: 2px solid rgb(231, 231, 231); */
+  padding: 10px;
+  margin-bottom: 10px;
+  height: auto;
+  width: 60%;
+  border-radius: 5px;
+  box-shadow: 2px 3px rgb(199, 199, 199);
+}
+
+.image1 {
+  position: absolute;
+  height: 100px;
+  width: 92px;
+  border: 1px solid rgb(231, 231, 231);
+  border-radius: 5px;
+  box-shadow: 1px 2px rgb(218, 218, 218);
+  opacity: 0;
+  animation: fadeAnimation 10s infinite;
+}
+
+.image1:nth-child(1) {
+  animation-delay: 0s;
+  /* Start immediately */
+}
+
+.image1:nth-child(2) {
+  animation-delay: 7s;
+}
+
+.image1:nth-child(3) {
+  animation-delay: 10s;
+}
+
+@keyframes fadeAnimation {
+  0% {
+    opacity: 0;
+  }
+
+  25% {
+    opacity: 1;
+  }
+
+  75% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+
+.image2 {
+  height: 60px;
+  width: 65px;
+  margin-left: 110px;
+  margin-top: 20px;
+  /* width: 65px; */
+  border: 2px solid rgb(231, 231, 231);
+  border-radius: 5px;
+  box-shadow: 2px 3px rgb(199, 199, 199);
+  opacity: 0;
+  animation: fadeAnimation 10s ease-out;
+}
+
+.name h3 {
+  /* border: 2px solid rgb(8, 8, 8); */
+  width: 130px;
+  color: rgb(0, 0, 0);
+  /* padding-top: -10px; */
+}
+
+.name i {
+  color: black;
+  padding-bottom: 5px;
+}
+
+.name strong {
+  color: rgb(55, 55, 255);
+}
+
+.name {
+  color: rgb(101, 101, 255);
+}
+
+
+.tab {
+  /* border: 2px solid red; */
+  /* width: 45%; */
+  padding-left: 10px;
+  /* padding-top: 10px; */
+  margin-left: 5%;
+  /* margin-top: -20px; */
+}
+
+.tab1 th {
+  border: 2px solid rgb(228, 228, 228);
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 3px;
+  font-style: italic;
+  text-align: left;
+
+}
+
+.tab1 a {
+  text-decoration: none;
+}
+
+.motivate p {
+  background-color: rgb(255, 255, 255);
+  /* border: 2px solid black; */
+  font-style: italic;
+  border-radius: 5px;
+  box-shadow: 2px 3px rgb(223, 223, 223);
+  color: rgb(0, 0, 0);
+  padding: 4px;
+  width: 63%;
+}
+
+/* ----------------------------------- */
+@media screen and (max-width: 1024px) {
+  .explore1 {
+    width: 80%;
+  }
+
+  .photo img {
+    height: 80px;
+    width: 80px;
+  }
+
+  .name p {
+    width: 80%;
+  }
+
+  .tab {
+    margin-left: 20%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .explore1 {
+    width: 90%;
+    height: auto;
+  }
+
+  .photo {
+    text-align: center;
+  }
+
+  .image1 {
+    height: 80px;
+    width: 80px;
+  }
+
+  .image2 {
+    visibility: hidden;
+  }
+
+  .name h3 {
+    font-size: 1.2rem;
+  }
+
+  .name p {
+    width: 100%;
+  }
+
+  .tab {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .explore1 {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+
+  .photo {
+    display: flex;
+    /* justify-content: center; */
+  }
+
+  .image1 {
+    height: 60px;
+    width: 60px;
+  }
+
+  .image2 {
+    visibility: hidden;
+  }
+
+  .name {
+    text-align: center;
+  }
+
+  .name h3 {
+    font-size: 1.5rem;
+  }
+
+  .name p {
+    width: 100%;
+  }
+
+  .tab {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .tab1 th {
+    font-size: 0.9rem;
+    padding: 10px;
+  }
+}
+
+.price {
+  /* border: 1px solid rgb(0, 0, 0); */
+  border: 1px solid rgb(241, 241, 241);
+  border-radius: 5px;
+  /* width: 35%; */
+  height: auto;
+  margin-left: 65%;
+  align-content: end;
+  text-align: center;
+  margin-top: -390px;
+  background-color: white;
+  box-shadow: 2px 2px rgb(195, 195, 195);
+}
+
+.pricefortwo {
+  border: 1px solid rgb(241, 241, 241);
+  border-radius: 5px;
+  /* width: 35%; */
+  /* height: 400px; */
+  margin-left: 65%;
+  align-content: end;
+  text-align: center;
+  margin-top: -390px;
+  background-color: white;
+  box-shadow: 2px 2px rgb(195, 195, 195);
+}
+
+.price table,
+.pricefortwo table {
+  margin-left: 10px;
+  /* border: 2px solid rgb(255, 255, 255); */
+  margin-top: 30px;
+  /* box-shadow: 2px 3px rgb(220, 220, 220); */
+  border-radius: 5px;
+  /* padding-left: 2px; */
+}
+
+.price th,
+.pricefortwo th {
+  border-radius: 5px;
+  width: 37%;
+  /* height: 10px; */
+}
+
+.price a,
+.pricefortwo a {
+  color: blue;
+  text-decoration: none;
+  /* border-radius: 5px; */
+  border: 2px solid rgb(255, 255, 255);
+  box-shadow: 2px 2px rgb(220, 220, 220);
+}
+
+.price a:hover,
+.pricefortwo a:hover {
+  color: red;
+  font-size: 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 2px solid rgb(255, 255, 255);
+  box-shadow: 2px 2px rgb(220, 220, 220);
+}
+
+.price hr,
+.pricefortwo hr {
+  width: 95%;
+  margin-top: 30px;
+}
+
+.active {
+  border-bottom: 2px solid blue !important;
+  border-radius: 0px;
+  width: 100%;
+}
+
+.profile1 {
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 25px;
+}
+
+.price strong,
+.pricefortwo strong {
+  font-size: 35px;
+}
+
+.profile {
+  /* background-color: aqua; */
+  border-radius: 5px;
+  padding-bottom: 17px;
+  height: 96px;
+}
+
+.profile a {
+  /* border: 2px solid black; */
+  padding: 2px;
+  /* background-color: rgb(66, 113, 255); */
+  border-radius: 1px;
+  /* width: 90%; */
+  color: white;
+  font-size: 20px;
+  /* border: 2px solid rgb(66, 113, 255); */
+}
+
+.ads p {
+  box-shadow: 0px 0px;
+  border: 0px solid slateblue;
+  color: rgb(255, 255, 255);
+  background-color: blue;
+  border: 0px solid rgb(255, 255, 255);
+  box-shadow: 0px 0px rgb(220, 220, 220);
+  width: 90%;
+  margin-left: 10px;
+  border-radius: 2px;
+}
+
+.ads a {
+  border: 0px;
+  box-shadow: 0px 0px;
+  width: 90%;
+  align-items: center;
+  align-content: center;
+  margin-left: 10px;
+}
+
+.ads a:hover {
+  box-shadow: 0px 0px;
+  border: 0px;
+  color: rgb(255, 0, 0);
+  font-size: 23px;
+}
+
+.profile1 a {
+  border: 0px solid rgb(0, 0, 0);
+  box-shadow: 0px 0px;
+}
+
+.profile1 a:hover {
+  border: 0px solid rgb(0, 0, 0);
+  box-shadow: 0px 0px;
+  color: blue;
+  font-size: 17px;
+}
+
+/* ------------------------------------------------------------- */
+.sidebar {
+  border: 2px solid rgb(225, 224, 224);
+  width: 37%;
+  margin-left: 62%;
+  margin-top: -855px;
+  padding-bottom: 10px;
+  height: auto;
+  border-radius: 2px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  box-shadow: 2px 2px rgb(202, 200, 197);
+}
+
+.filterby {
+  padding: 10px;
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 16px;
+  margin-left: 29px;
+  display: inline;
+  /* border: 2px solid black; */
+  /* width: 100px; */
+}
+
+.filterby1 {
+  padding: 10px;
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 16px;
+  margin-left: 29px;
+  display: inline;
+  /* border: 2px solid black; */
+  /* width: 100px; */
+}
+
+.filter button {
+  border-radius: 15px;
+  border: 1px solid red;
+  background-color: white;
+  padding: 1px;
+  width: 110px;
+  text-align: center;
+  margin-left: 52%;
+  margin-top: 30px;
+  height: 30px;
+}
+
+.filter button:hover {
+  cursor: pointer;
+}
+
+.sidebar hr {
+  border: 0.5px dashed rgb(211, 211, 211);
+  margin-top: 35px;
+  width: 91%;
+}
+
+.match {
+  /* border: 1px solid rgb(126, 126, 126); */
+  /* height: 20px; */
+  padding: 13px;
+  width: 80%;
+  margin-left: 20px;
+  margin-top: 10%;
+  display: inline;
+  padding-top: 5px;
+  text-align: center;
+}
+
+.matchbuttom {
+  border: 1px solid rgb(152, 151, 151);
+  height: 23px;
+  padding: 9px;
+  width: 90%;
+  margin-left: 20px;
+  margin-top: 50px;
+  border-radius: 2px;
+  font-size: 20px;
+}
+
+.matchbuttom button {
+  height: 24px;
+  width: 43px;
+  background-color: blue;
+  border: 2px solid blue;
+  text-align: end;
+  border-radius: 20px;
+}
+
+.matchbuttom button:hover {
+  cursor: pointer;
+}
+
+.domain p {
+  margin-left: 19px;
+  font-size: 20px;
+  width: 100%;
+}
+
+.domain input {
+  width: 400px;
+  height: 35px;
+  margin-left: 20px;
+  border-right: 0px;
+  border: 1px solid rgb(52, 133, 255);
+}
+
+.domain select {
+  width: 95px;
+  height: 38.4px;
+  margin-left: -5px;
+  border: 1px solid rgb(52, 133, 255);
+  border-left: 0px;
+}
+
+/* 
+ th {
+  border: 1px solid black;
+  border-collapse: collapse;
+} */
+.coursechoose1 {
+
+  margin-top: 30px;
+  margin-left: 25px;
+}
+
+.coursechoose {
+  margin-left: 25px;
+}
+
+.coursechoose th,
+.coursechoose1 th,
+.choosecompany th,
+.chooseTool th {
+  width: auto;
+  border: 1px solid rgb(246, 244, 244);
+  padding-left: 35px;
+  padding-right: 35px;
+  border-radius: 3px;
+  font-style: italic;
+  text-align: left;
+  font-weight: 150;
+  font-size: 18px;
+  background-color: rgb(250, 250, 250);
+}
+
+.chooseLanguage th {
+  width: auto;
+  border: 1px solid rgb(246, 244, 244);
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 3px;
+  font-style: italic;
+  font-weight: 150;
+  font-size: 18px;
+  background-color: rgb(250, 250, 250);
+}
+
+.coursechoose th:hover,
+.coursechoose1 th:hover,
+.choosecompany th:hover,
+.chooseTool th:hover,
+.chooseLanguage th:hover {
+  background-color: rgb(0, 0, 255);
+  font-size: 22px;
+  cursor: pointer;
+  color: white;
+}
+
+.offermentor,
+.choosecompany,
+.chooseTool,
+.chooseLanguage {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.offermentor select,
+.choosecompany select,
+.chooseTool select,
+.chooseLanguage select {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 5px;
+  width: 80%;
+  height: 45px;
+  padding-left: 15px;
+  border: 1.5px solid blue;
+}
